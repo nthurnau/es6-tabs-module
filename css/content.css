@@ -1,0 +1,48 @@
+.content {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.content-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content p {
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 14px;
+}
